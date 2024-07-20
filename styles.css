@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e6e6ea;
+}
+
+header {
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header input,  header button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+header input {
+    flex: 1;
+}
+
+header button {
+    background-color: #f0a500;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+	flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.category p {
+    padding: 10px;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FF6500;
+    color: white;
+}
